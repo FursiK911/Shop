@@ -1,0 +1,8 @@
+.slider{
+    max-width: 1500px;
+    max-height: 700px;
+    margin: 10px 10% 10px 10%;
+}
+.slide{
+    position: relative;
+}
