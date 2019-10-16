@@ -221,6 +221,18 @@
                     </div>
                 </li>
             </ul>
+
+            <footer>
+                <h4 class="roots_label">© 2019 Одежда-Донецк All Rights Reserved.</h4>
+                <ul class="icons">
+                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-reddit" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-whatsapp" aria-hidden="true"></i></li>
+                </ul>
+            </footer>
+
         </main>
     </div>
     @show

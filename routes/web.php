@@ -18,3 +18,9 @@ Route::get('/', function () {
 Route::get('/shopping_cart', function () {
     return view('shopping_cart');
 });
+
+Auth::routes();
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
