@@ -24,6 +24,7 @@ class CreateItemsTable extends Migration
             $table->integer('price');
             $table->string('clothing_size');
             $table->integer('rating');
+            $table->string('img');
         });
     }
 

@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    redirect('/items');
 });
 
 Route::get('/shopping_cart', function () {
@@ -23,4 +23,6 @@ Auth::routes();
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('items', 'ItemsController')->only([
+    'index'
+]);

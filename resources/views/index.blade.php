@@ -28,6 +28,24 @@
             </div>
 
             <ul class="products">
+                @foreach($items as $key => $value)
+                    <li class="border">
+                        <div class="wrap">
+                            <div class="product-wrap">
+                                <a href=""><img src="{{ $value->img }}"></a>
+                            </div>
+                            <div class="loop-action">
+                                <a href="" class="add-to-cart">Быстрый просмотр</a>
+                                <a href="" class="loop-add-to-cart">В корзину</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="stars"></div>
+                            <h3 class="product-title">{{ $value->name_of_item }}</h3>
+                            <div class="price">&#8381; {{ $value->price }}</div>
+                        </div>
+                    </li>
+                @endforeach
                 <li class="border">
                     <div class="wrap">
                         <div class="product-wrap">
