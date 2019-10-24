@@ -24,5 +24,5 @@ Auth::routes();
 Auth::routes();
 
 Route::resource('items', 'ItemsController')->only([
-    'index'
+    'index', 'store',
 ]);

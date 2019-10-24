@@ -4,6 +4,7 @@
 }
 
 .border {
+    height: 400px;
     width: 300px;
     background: #ff5c8d;
     padding: 20px;
@@ -17,9 +18,13 @@
 .wrap {
     position: relative;
 }
+
+.wrap img{
+    max-height: 280px;
+}
 .product-wrap {
     display : inline-block;
-    margin: 0px 0 20px;
+    margin: 0px 0 5px;
     background: #ff5c8d;
     vertical-align: top;
     text-align: center;
@@ -108,6 +113,7 @@
     font-family: "Open Sans";
     color: #000;
     font-size: 18px;
+    margin-top: 5px;
 }
 .price {
     font-family: "Open Sans";
